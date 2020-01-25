@@ -18,7 +18,7 @@ app.get('/', function(req, res){
         "Authorization" : "apikey Qc9idalrWCIhYSKgNA0AVDFYXFOuaStWG66W"
             }
         })
-    .then(res => console.log(res.data.ToObjec));
+    .then(res => console.log(res.data));
     res.send('welit')
 })
 
